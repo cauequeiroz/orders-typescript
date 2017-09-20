@@ -1,0 +1,19 @@
+{
+  "name": "orders-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run watch\" \"npm run server\"",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "server": "lite-server --baseDir=app"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "lite-server": "^2.3.0",
+    "typescript": "^2.3.2"
+  }
+}
